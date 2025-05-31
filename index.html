@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyMovieVerse</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <li><a href="reviews.html">Reviews</a></li>
+
+</head>
+
+
+<body>
+
+  <a id="top"></a>
+
+    <!-- THEME TOGGLE -->
+    <input type="checkbox" id="theme-toggle" hidden />
+<label for="theme-toggle" class="theme-toggle-label">🌞 Light / Dark 🌙</label>
+
+<div class="theme-wrapper"
+
+  <!-- Navigation Bar -->
+
+  <header>
+    <nav class="navbar">
+  <div class="logo">🎬 MyMovieVerse</div>
+
+  <!-- Hamburger Menu Toggle -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <!-- Navigation Links -->
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#trending">Trending</a></li>
+    <li><a href="#popular">Popular</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <!-- Hero Section -->
+
+  
+  <section id="hero" class="hero">
+    <div class="hero-left">
+      <h1>Welcome to MyMovieVerse</h1>
+      <p>Your gateway to discovering epic entertainment!</p>
+      <a href="#trending" class="btn">Explore Trending Movies</a>
+    </div>
+    <div class="hero-right">
+      <!-- Replace this with your own animated SVG -->
+      <img src="https://pnghq.com/wp-content/uploads/2023/02/movie-cinema-logo-png-7598.png" alt="Movie Illustration" class="animated-svg">
+    </div>
+  </section>
+
+  <!-- Trending Movies -->
+
+
+  
+  <!-- To be continued... -->
+
+
+
+<section id="trending" class="section">
+  <h1>Trending Movies</h1>
+  <p class="subtitle">Catch what’s buzzing around the world</p>
+
+  <div class="carousel">
+    <div class="carousel-track">
+
+      <!-- Movie 1 -->
+      <div class="movie-card">
+        <img src="https://cdna.artstation.com/p/assets/images/images/063/096/684/large/william-j-harris-oppenheimer-movie-poster-2023.jpg?1684720979" alt="Oppenheimer">
+        <div class="card-content">
+          <h3>Oppenheimer</h3>
+          <p>The atomic age begins...</p>
+          
+          <div class="duration-row">
+            <span class="duration">3h</span>
+            <label class="watchlist-toggle">
+              <input type="checkbox" />
+              <span class="toggle-icon"></span>
+            </label>
+          </div>
+
+          <div class="card-actions">
+            <a href="https://www.peacocktv.com/stream-movies/oppenheimer" target="_blank" class="watch-btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 2 -->
+      <div class="movie-card">
+        <img src="https://www.themoviedb.org/t/p/original/nCbkOyOMTEwlEV0LtCOvCnwEONA.jpg" alt="Interstellar">
+        <div class="card-content">
+          <h3>Interstellar</h3>
+          <p>Journey through space and time.</p>
+          
+          <div class="duration-row">
+            <span class="duration">2h 49m</span>
+            <label class="watchlist-toggle">
+              <input type="checkbox" />
+              <span class="toggle-icon"></span>
+            </label>
+          </div>
+
+          <div class="card-actions">
+            <a href="https://www.netflix.com/title/70305903" target="_blank" class="watch-btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 3 -->
+      <div class="movie-card">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2a5bb2105168471.5f733bb4cec20.jpg" alt="Dune">
+        <div class="card-content">
+          <h3>Dune</h3>
+          <p>Epic sci-fi battle for desert power.</p>
+          
+          <div class="duration-row">
+            <span class="duration">2h 35m</span>
+            <label class="watchlist-toggle">
+              <input type="checkbox" />
+              <span class="toggle-icon"></span>
+            </label>
+          </div>
+
+          <div class="card-actions">
+            <a href="https://www.hbo.com/movies/dune" target="_blank" class="watch-btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 4 -->
+      <div class="movie-card">
+        <img src="https://th.bing.com/th/id/OIP.6UnlVbhxaVK9NeQQVn7f7wHaK_?rs=1&pid=ImgDetMain" alt="Joker">
+        <div class="card-content">
+          <h3>Joker</h3>
+          <p>A descent into madness.</p>
+          
+          <div class="duration-row">
+            <span class="duration">2h 2m</span>
+            <label class="watchlist-toggle">
+              <input type="checkbox" />
+              <span class="toggle-icon"></span>
+            </label>
+          </div>
+
+          <div class="card-actions">
+            <a href="https://www.hbo.com/movies/joker" target="_blank" class="watch-btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+<section id="popular" class="section">
+  <h1>Popular Movies</h1>
+  <p class="subtitle">Movies loved by the audience</p>
+
+  <div class="carousel">
+    <div class="carousel-track">
+
+      <!-- Movie 1 -->
+      <div class="movie-card">
+        <img src="https://th.bing.com/th/id/OIP.2pShG-AHRJdjcFm-hRF8JAHaKN?rs=1&pid=ImgDetMain" alt="Avengers: Endgame">
+        <div class="card-content">
+          <h3>Avengers: Endgame</h3>
+          <p>The epic conclusion to the Infinity Saga.</p>
+          
+          <div class="duration-row">
+            <span class="duration">3h 1m</span>
+            <label class="watchlist-toggle">
+              <input type="checkbox" />
+              <span class="toggle-icon"></span>
+            </label>
+          </div>
+
+          <div class="card-actions">
+            <a href="https://www.disneyplus.com/movies/avengers-endgame/3QNb7XqNcKdV" target="_blank" class="watch-btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 2 -->
+      <div class="movie-card">
+        <img src="https://www.themoviedb.org/t/p/original/qXsndsv3WOoxszmdlvTWeY688eK.jpg" alt="Frozen II">
+        <div class="card-content">
+          <h3>Frozen II</h3>
+          <p>The magical journey continues.</p>
+          
+          <div class="duration-row">
+            <span class="duration">1h 43m</span>
+            <label class="watchlist-toggle">
+              <input type="checkbox" />
+              <span class="toggle-icon"></span>
+            </label>
+          </div>
+
+          <div class="card-actions">
+            <a href="https://www.disneyplus.com/movies/frozen-ii/4dvJd8LL7lXI" target="_blank" class="watch-btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 3 -->
+      <div class="movie-card">
+        <img src="https://www.themoviedb.org/t/p/original/gwv98uK5J7xEOgJ1Mmij1O22eVR.jpg" alt="Spider-Man: Into the Spider-Verse">
+        <div class="card-content">
+          <h3>Spider-Man: Into the Spider-Verse</h3>
+          <p>A new dimension of Spider-Men.</p>
+          
+          <div class="duration-row">
+            <span class="duration">1h 57m</span>
+            <label class="watchlist-toggle">
+              <input type="checkbox" />
+              <span class="toggle-icon"></span>
+            </label>
+          </div>
+
+          <div class="card-actions">
+            <a href="https://www.netflix.com/title/81027038" target="_blank" class="watch-btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Movie 4 -->
+      <div class="movie-card">
+        <img src="https://th.bing.com/th/id/OIP.5ahT4xY8YtYbp8QWFSaifQHaK-?rs=1&pid=ImgDetMain" alt="Top Gun: Maverick">
+        <div class="card-content">
+          <h3>Top Gun: Maverick</h3>
+          <p>The legendary pilot returns.</p>
+          
+          <div class="duration-row">
+            <span class="duration">2h 11m</span>
+            <label class="watchlist-toggle">
+              <input type="checkbox" />
+              <span class="toggle-icon"></span>
+            </label>
+          </div>
+
+          <div class="card-actions">
+            <a href="https://www.paramountplus.com/movies/top-gun-maverick/" target="_blank" class="watch-btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="simple-footer">
+  <div class="footer-content">
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://example.com/terms" target="_blank">Terms & Conditions</a>
+     
+    </div>
+
+  
+  </div>
+
+    <a href="#top" class="back-to-top">↑ Top</a>
+
+  
+</footer>
+</div>
+</body>
+</html>
